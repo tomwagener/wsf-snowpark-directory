@@ -1,0 +1,176 @@
+park_id,park_name,resort_name,country,region,shaper_crew,facility_type,has_pipe,latitude,longitude,source_url
+park-andorra-grandvalira-el-tarter,Snowpark Grandvalira (El Tarter),Grandvalira El Tarter,Andorra,Canillo,Coliflor Freestyle / Grandvalira Crew,Resort,Yes,42.581,1.652,https://www.grandvalira.com/snowpark-el-tarter
+park-andorra-grandvalira-grau-roig,Sunset Park Henrik Harlaut,Grandvalira Grau Roig,Andorra,Encamp,Coliflor Freestyle,Resort,No,42.532,1.701,https://www.grandvalira.com/sunset-park-peretol
+park-argentina-cerro-catedral-bariloche,Cerro Catedral Terrain Park,Cerro Catedral (Bariloche),Argentina,Río Negro,Catedral Snowpark Crew,Resort,No,-41.171,-71.438,https://catedralaltapatagonia.com/
+park-australia-falls-creek-alpine-resort,Falls Creek Terrain Parks,Falls Creek Alpine Resort,Australia,Victoria,Falls Creek Park Crew,Resort,No,-36.865,147.288,https://www.fallscreek.com.au/terrainparks
+park-australia-mount-hotham,Mount Hotham Basin & Parks,Mount Hotham,Australia,Victoria,Hotham Park Crew,Resort,No,-36.985,147.132,https://www.mthotham.com.au/terrain-parks
+park-australia-perisher-ski-resort-front-valley-ps3,Perisher Terrain Parks,Perisher Ski Resort (Front Valley / PS3),Australia,New South Wales,Effective Edge / Perisher Park Crew,Resort,Yes,-36.404,148.414,https://www.perisher.com.au/terrain-parks
+park-australia-thredbo-resort-cruiser-anton-s,Thredbo Terrain Parks,Thredbo Resort (Cruiser / Anton's),Australia,New South Wales,Thredbo Parks Crew,Resort,No,-36.502,148.304,https://www.thredbo.com.au/mountain/terrain-parks/
+park-austria-bad-gastein-stubnerkogel,Snowpark Gastein,Bad Gastein (Stubnerkogel),Austria,Salzburg,QParks,Resort,No,47.112,13.125,https://www.qparks.com/snowpark-gastein/
+park-austria-banger-park-freestyle-training-facility,Banger Park Scharnitz,Banger Park Freestyle Training Facility,Austria,Tyrol,Banger Park Shape Crew,Dryslope,No,47.388,11.265,https://www.bangerpark.com/
+park-austria-dam-ls-mellau,Snowpark Damüls,Damüls Mellau,Austria,Vorarlberg,Allgäu Shape Crew / Schneestern,Resort,No,47.279,9.892,https://www.snowparkdamuels.com/
+park-austria-ehrwald,Snowpark Ehrwalder Alm,Ehrwald,Austria,Tyrol,QParks,Resort,No,47.391,10.952,https://www.qparks.com/snowpark-ehrwalder-alm/
+park-austria-hintertux-glacier,Betterpark Hintertux,Hintertux Glacier,Austria,Tyrol,Wille Kaufmann / Betterpark Crew,Resort,Yes,47.069,11.677,https://www.betterpark.at/
+park-austria-hochk-nig-m-hlbach,Blue Tomato Kings Park,Hochkönig (Mühlbach),Austria,Salzburg,QParks,Resort,No,47.3795,13.0642,https://www.qparks.com/kings-park/
+park-austria-hochzillertal-kaltenbach,Betterpark Hochzillertal,Hochzillertal Kaltenbach,Austria,Tyrol,Betterpark Crew,Resort,No,47.288,11.834,https://www.betterpark.at/
+park-austria-innsbruck-nordkette-seegrube,Skylinepark / Moon Park Nordkette,Innsbruck Nordkette (Seegrube),Austria,Tyrol,Nordkette Skyline Crew,Resort,No,47.305,11.378,https://nordkette.com/de/skylinepark.html
+park-austria-kaunertal-glacier,Snowpark Kaunertal,Kaunertal Glacier,Austria,Tyrol,Schneestern,Resort,Yes,46.902,10.725,https://www.snowpark-kaunertal.net/
+park-austria-kitzb-hel-hanglalm,Snowpark Kitzbühel,Kitzbühel (Hanglalm),Austria,Tyrol,QParks,Resort,No,47.382,12.441,https://www.qparks.com/snowpark-kitzbuehel/
+park-austria-kitzsteinhorn-kaprun,Kitzsteinhorn Snowpark & Superpipe,Kitzsteinhorn (Kaprun),Austria,Salzburg,Kitzsteinhorn Park Crew,Resort,Yes,47.204,12.686,https://www.kitzsteinhorn.at/de/winter/kitzsteinhorn/snowpark
+park-austria-k-htai,KPark Kühtai Superpipe & Slopestyle,Kühtai,Austria,Tyrol,KPark Shape Crew / Schneestern,Resort,Yes,47.214,11.018,https://www.kuehtai.info/winter/kpark-kuehtai.html
+park-austria-mayrhofen-zillertal,Penken Park Mayrhofen,Mayrhofen (Zillertal),Austria,Tyrol,QParks,Resort,Yes,47.172,11.815,https://www.mayrhofner-bergbahnen.com/penken-park/
+park-austria-russbach-dachstein-west,Snowpark Dachstein West,Russbach / Dachstein West,Austria,Salzburg,QParks,Resort,No,47.585,13.485,https://www.qparks.com/snowpark-dachstein-west/
+park-austria-schladming-planai,Superpark Planai,Schladming Planai,Austria,Styria,QParks,Resort,No,47.3758,13.7258,https://www.qparks.com/superpark-planai/
+park-austria-shuttleberg-flachauwinkl-kleinarl,Absolut Park Flachauwinkl,Shuttleberg Flachauwinkl-Kleinarl,Austria,Salzburg,Absolut Park Shape Crew / Schneestern,Resort,Yes,47.2915,13.385,https://www.absolutpark.com/
+park-austria-silvretta-montafon-grasjoch,Snowpark Montafon,Silvretta Montafon (Grasjoch),Austria,Vorarlberg,Schneestern,Resort,No,47.072,10.015,https://www.silvretta-montafon.at/snowpark
+park-austria-stubai-glacier-stubaier-gletscher,Stubai Zoo,Stubai Glacier (Stubaier Gletscher),Austria,Tyrol,Schneestern,Resort,No,47.0115,11.1275,https://www.stubaier-gletscher.com/stubai-zoo/
+park-austria-turracher-h-he,Snowpark Turracher Höhe,Turracher Höhe,Austria,Carinthia,QParks,Resort,No,46.918,13.874,https://www.qparks.com/snowpark-turracher-hoehe/
+park-austria-waidring-steinplatte,Snowpark Steinplatte,Waidring Steinplatte,Austria,Tyrol,QParks,Resort,No,47.604,12.582,https://www.qparks.com/snowpark-steinplatte/
+park-austria-zillertal-arena-gerlos,Snowpark Zillertal Arena,Zillertal Arena (Gerlos),Austria,Tyrol,QParks / Actionpark,Resort,Yes,47.241,12.032,https://www.zillertalarena.com/actionpark-kreuzwiese/
+park-belgium-ice-mountain-komen,Ice Mountain Adventure Park,Ice Mountain Komen,Belgium,Wallonia,Ice Mountain Park Crew,Indoor,No,50.771,2.998,https://www.ice-mountain.com/
+park-belgium-snow-valley-peer,Snow Valley Peer Freestyle Area,Snow Valley Peer,Belgium,Flanders,Snow Valley Crew,Indoor,No,51.128,5.438,https://www.snowvalley.be/
+park-bulgaria-bansko-ski-resort-plato,Snowpark Bansko,Bansko Ski Resort (Plato),Bulgaria,Blagoevgrad,Bansko Park Crew,Resort,No,41.778,23.441,https://www.banskoski.com/en/snowpark
+park-canada-big-white-ski-resort,Big White TELUS Park,Big White Ski Resort,Canada,British Columbia,Arena Snowparks,Resort,No,49.721,-118.928,https://www.bigwhite.com/geo/terrain-park
+park-canada-grouse-mountain,Grouse Mountain Cut Park,Grouse Mountain,Canada,British Columbia,Arena Snowparks,Resort,No,49.379,-123.082,https://www.grousemountain.com/terrain-parks
+park-canada-mont-tremblant,Mont Tremblant Snowparks,Mont Tremblant,Canada,Quebec,Tremblant Shape Crew,Resort,No,46.212,-74.585,https://www.tremblant.ca/snowparks
+park-canada-sun-peaks-resort,Sun Peaks Terrain Park,Sun Peaks Resort,Canada,British Columbia,Arena Snowparks,Resort,No,50.884,-119.882,https://www.sunpeaksresort.com/terrain-park
+park-canada-whistler-blackcomb,Whistler Blackcomb Nintendo Parks,Whistler Blackcomb,Canada,British Columbia,Arena Snowparks / Whistler Crew,Resort,Yes,50.116,-122.948,https://www.whistlerblackcomb.com/terrain-parks
+park-canada-winsport-canada-olympic-park-calgary,Winsport Calgary Halfpipe & Park,WinSport Canada Olympic Park (Calgary),Canada,Alberta,Arena Snowparks / WinSport Crew,Resort,Yes,51.08,-114.215,https://www.winsport.ca/terrain-park
+park-chile-el-colorado-farellones,El Colorado Sunset Park,El Colorado / Farellones,Chile,Santiago Metropolitan,Monster Park Crew,Resort,No,-33.352,-70.291,https://www.elcolorado.cl/
+park-chile-valle-nevado,Valle Nevado Terrain Park,Valle Nevado,Chile,Santiago Metropolitan,Valle Nevado Park Crew,Resort,No,-33.355,-70.249,https://vallenevado.com/en/mountain/terrain-park/
+park-china-changbaishan-international-ski-resort,Wanda Changbaishan Terrain Park,Changbaishan International Ski Resort,China,Jilin,Changbaishan Park Crew,Resort,Yes,41.986,127.568,http://www.whresort.com/
+park-china-chengdu-sunac-snow-park-dujiangyan,Chengdu Sunac Snow Park,Chengdu Sunac Snow Park (Dujiangyan),China,Sichuan,Sunac Snow Shape Crew,Indoor,No,30.952,103.621,http://www.sunac.com.cn/
+park-china-genting-snow-park-zhangjiakou,Genting Resort Secret Garden Park & Halfpipe,Genting Snow Park (Zhangjiakou),China,Hebei,Schneestern / Genting Olympic Shapers,Resort,Yes,40.957,115.281,https://www.secretgardenresorts.com/
+park-china-guangzhou-sunac-snow-park,Guangzhou Sunac Snow Park,Guangzhou Sunac Snow Park,China,Guangdong,Sunac Snow Shape Crew,Indoor,No,23.435,113.238,http://www.sunac.com.cn/
+park-china-harbin-sunac-snow-park,Harbin Wanda / Sunac Snow Park,Harbin Sunac Snow Park,China,Heilongjiang,Sunac Snow Shape Crew,Indoor,No,45.795,126.541,http://www.sunac.com.cn/
+park-china-kunming-sunac-snow-park,Kunming Sunac Snow Park,Kunming Sunac Snow Park,China,Yunnan,Sunac Snow Shape Crew,Indoor,No,24.968,102.658,http://www.sunac.com.cn/
+park-china-shanghai-l-snow-indoor-ski-resort-yaoxue,Shanghai L+SNOW Indoor Skiing Theme Resort,Shanghai L+SNOW Indoor Ski Resort (Yaoxue),China,Shanghai,L+SNOW Park Team,Indoor,No,30.912,121.921,https://www.shanghai.gov.cn/
+park-china-thaiwoo-ski-resort-chongli,Thaiwoo Snow Park,Thaiwoo Ski Resort (Chongli),China,Hebei,Effective Edge / Thaiwoo Crew,Resort,No,40.912,115.345,http://www.thaiwoo.com/
+park-china-vanke-lake-songhua-resort,Lake Songhua Snow Park,Vanke Lake Songhua Resort,China,Jilin,Lake Songhua Shape Crew,Resort,No,43.682,126.685,http://www.songhuaski.com/
+park-china-wuxi-sunac-snow-park,Wuxi Sunac Snow Park,Wuxi Sunac Snow Park,China,Jiangsu,Sunac Snow Shape Crew,Indoor,No,31.428,120.278,http://www.sunac.com.cn/
+park-czech-republic-de-tn-v-orlick-ch-hor-ch,Your Park Deštné,Deštné v Orlických horách,Czech Republic,Hradec Králové,Your Park Crew,Resort,No,50.308,16.351,https://www.skicentrumdestne.cz/de/snowpark-your-park/
+park-czech-republic-kl-novec-neklid-erzgebirge,Snowpark Neklid & Funpark Klínovec,Klínovec / Neklid (Erzgebirge),Czech Republic,Karlovy Vary,Neklid Shapers / Klínovec Crew,Resort,No,50.412,12.955,https://klinovec.cz/de/snowpark-neklid/
+park-czech-republic-lipno-servis-kramol-n,Snowpark Lipno,Lipno Servis (Kramolín),Czech Republic,South Bohemia,Lipno Shape Crew,Resort,No,48.648,14.225,https://www.lipno.info/de/erlebnisse/snowpark-lipno.html
+park-czech-republic-pindler-v-ml-n,Snowpark Horní Mísečky / Svatý Petr,Špindlerův Mlýn,Czech Republic,Hradec Králové,Skiareál Špindlerův Mlýn Crew,Resort,Yes,50.732,15.578,https://www.skiareal.cz/de/aktivitaten/snowparks
+park-denmark-copenhill-amager-bakke,CopenHill Urban Mountain Park,CopenHill (Amager Bakke),Denmark,Capital Region,CopenHill Freestyle Crew / Neveplast,Dryslope,No,55.688,12.618,https://www.copenhill.dk/
+park-egypt-ski-egypt-mall-of-egypt,Ski Egypt,Ski Egypt (Mall of Egypt),Egypt,Giza,Ski Egypt Crew,Indoor,No,29.972,31.018,https://www.skiegypt.com/
+park-finland-ruka-ski-resort-kuusamo,Ruka Snow Park,Ruka Ski Resort (Kuusamo),Finland,Northern Ostrobothnia,Ruka Park Crew / Schneestern,Resort,Yes,66.165,29.151,https://www.ruka.fi/en/ski-resort/slopes/ruka-park
+park-finland-talma-ski-sipoo,Talma Glacier Park,Talma Ski (Sipoo),Finland,Uusimaa,Talma Park Crew / Schneestern,Resort,No,60.401,25.188,https://www.talmaski.fi/
+park-finland-vuokatti,Vuokatti Freestyle Park,Vuokatti,Finland,Kainuu,Vuokatti Freestyle Crew,Resort,Yes,64.138,28.272,https://vuokatti.fi/en/slopes/freestyle-park/
+park-france-avoriaz-portes-du-soleil,Snowpark Avoriaz (The Stash / Arare),Avoriaz (Portes du Soleil),France,Haute-Savoie,Avoriaz Snowzone Shape Crew,Resort,Yes,46.192,6.772,https://www.avoriaz.com/snowpark
+park-france-chamrousse,Snowpark Chamrousse (Sunset Park),Chamrousse,France,Isère,Chamrousse Park Crew,Resort,No,45.126,5.889,https://www.chamrousse.com/sunset-park.html
+park-france-les-deux-alpes-glacier-toura,Snowpark Les 2 Alpes,Les Deux Alpes (Glacier & Toura),France,Isère,2 Alpes Park Crew,Resort,Yes,45.015,6.134,https://www.les2alpes.com/snowpark/
+park-france-loisinord-n-ux-les-mines,Noeux-les-Mines Loisinord Freestyle Park,Loisinord Nœux-les-Mines,France,Hauts-de-France,Loisinord Freestyle Crew,Dryslope,No,50.472,2.658,https://www.bethunebruay.fr/fr/loisinord
+park-france-m-ribel-les-3-vall-es,Snowpark Méribel (Area 43),Méribel (Les 3 Vallées),France,Savoie,Hill Schnitzel / DC Area 43 Crew,Resort,Yes,45.385,6.578,https://www.meribel.net/snowpark-area-43/
+park-france-snowhall-amn-ville-les-thermes,Snowhall Amnéville,Snowhall Amnéville-les-Thermes,France,Grand Est,Snowhall Freestyle Crew,Indoor,No,49.248,6.138,https://www.snowhall.fr/
+park-france-tignes-val-claret-grande-motte,Snowpark Tignes,Tignes (Val Claret / Grande Motte),France,Savoie,Tignes Freestyle Crew,Resort,Yes,45.452,6.898,https://www.tignes.net/ski/snowpark
+park-france-val-thorens-les-3-vall-es,Snowpark Val Thorens,Val Thorens (Les 3 Vallées),France,Savoie,Val Thorens Park Crew,Resort,No,45.298,6.582,https://www.valthorens.com/snowpark/
+park-france-val-d-is-re-bellevard-bellevarde,Snowpark Val d'Isère,Val d'Isère (Bellevard / Bellevarde),France,Savoie,Val d'Isère Shape Crew,Resort,No,45.441,6.962,https://www.valdisere.com/en/activities/snowpark/
+park-france-vars-la-for-t-blanche,Snowpark Vars (Park de l'Eyssina),Vars La Forêt Blanche,France,Hautes-Alpes,Vars Park Crew,Resort,No,44.578,6.698,https://www.vars.com/vars-park-story
+park-germany-abenteuer-resort-bispingen-snow-dome,Snow Dome Bispingen Terrain Park,Abenteuer Resort Bispingen (Snow Dome),Germany,Lower Saxony,Snow Dome Shape Crew,Indoor,No,53.098,9.992,https://www.abenteuer-resort.de/
+park-germany-alpincenter-bottrop,Alpincenter Bottrop Freestyle Park,Alpincenter Bottrop,Germany,North Rhine-Westphalia,Alpincenter Bottrop Crew,Indoor,No,51.52,6.969,https://www.alpincenter.com/bottrop/
+park-germany-alpincenter-hamburg-wittenburg,Alpincenter Wittenburg,Alpincenter Hamburg-Wittenburg,Germany,Mecklenburg-Vorpommern,Wittenburg Freestyle Team,Indoor,No,53.518,11.082,https://www.alpincenter.com/wittenburg/
+park-germany-alpspitzbahn-nesselwang-red-bull-the-station,Snowpark Nesselwang,Alpspitzbahn Nesselwang (Red Bull The Station),Germany,Bavaria,Schneestern,Resort,No,47.618,10.498,https://www.alpspitzbahn.de/snowpark-nesselwang.html
+park-germany-feldberg,Snowpark Feldberg,Feldberg,Germany,Baden-Württemberg,Schneestern / QParks,Resort,No,47.859,8.036,https://www.feldberg-erlebnis.de/snowpark
+park-germany-halde-gro-es-holz-bergkamen,Urban Snowpark Bergkamen,Halde Großes Holz (Bergkamen),Germany,North Rhine-Westphalia,Neveplast Urban Crew,Dryslope,No,51.618,7.615,https://www.bergkamen.de/
+park-germany-oberstdorf-nebelhorn,Snowpark Nebelhorn,Oberstdorf Nebelhorn,Germany,Bavaria,Schneestern,Resort,No,47.421,10.315,https://www.ok-bergbahnen.com/
+park-germany-snowworld-neuss-alpenpark-neuss,SnowWorld Neuss (Jever Skihalle),SnowWorld Neuss / Alpenpark Neuss,Germany,North Rhine-Westphalia,Alpenpark Neuss Shapers,Indoor,No,51.189,6.645,https://www.alpenpark-neuss.de/
+park-germany-spitzingsee-tegernsee-firstalm,Snowpark Spitzingsee,Spitzingsee-Tegernsee (Firstalm),Germany,Bavaria,Alpenplus Park Crew,Resort,No,47.665,11.879,https://www.alpenplus.com/spitzingsee/snowpark/
+park-italy-alpe-di-siusi-seiser-alm,Snowpark Seiser Alm,Alpe di Siusi (Seiser Alm),Italy,South Tyrol,F-Tech Snowparks,Resort,No,46.541,11.615,https://www.f-techsnowparks.com/portfolio/seiser-alm/
+park-italy-alta-badia-piz-sorega,Snowpark Alta Badia,Alta Badia (Piz Sorega),Italy,South Tyrol,QParks,Resort,No,46.562,11.905,https://www.qparks.com/snowpark-alta-badia/
+park-italy-carezza-dolomites-passo-costalunga,Snowpark Carezza,Carezza Dolomites (Passo Costalunga),Italy,South Tyrol,F-Tech Snowparks,Resort,No,46.406,11.592,https://www.f-techsnowparks.com/portfolio/carezza/
+park-italy-klausberg-ahrntal,Snowpark Klausberg,Klausberg (Ahrntal),Italy,South Tyrol,F-Tech Snowparks,Resort,No,46.985,11.968,https://www.f-techsnowparks.com/portfolio/klausberg/
+park-italy-kronplatz-plan-de-corones,Kronplatz Snowpark,Kronplatz (Plan de Corones),Italy,South Tyrol,F-Tech Snowparks,Resort,No,46.738,11.956,https://www.f-techsnowparks.com/portfolio/kronplatz/
+park-italy-livigno-mottolino-fun-mountain,Mottolino Snowpark,Livigno (Mottolino Fun Mountain),Italy,Lombardy,F-Tech Snowparks,Resort,Yes,46.5365,10.144,https://www.f-techsnowparks.com/portfolio/mottolino-snowpark/
+park-italy-madonna-di-campiglio-grost,Ursus Snowpark,Madonna di Campiglio (Grostè),Italy,Trentino,F-Tech Snowparks,Resort,No,46.248,10.879,https://www.ursus-snowpark.com/
+park-italy-meran-2000,Snowpark Meran 2000,Meran 2000,Italy,South Tyrol,F-Tech Snowparks,Resort,No,46.671,11.238,https://www.f-techsnowparks.com/portfolio/meran-2000/
+park-italy-obereggen-latemar,Snowpark Obereggen,Obereggen (Latemar),Italy,South Tyrol,F-Tech Snowparks,Resort,Yes,46.384,11.532,https://www.f-techsnowparks.com/portfolio/obereggen/
+park-italy-pfelders-passeiertal,Snowpark Pfelders,Pfelders (Passeiertal),Italy,South Tyrol,F-Tech Snowparks,Resort,No,46.788,11.085,https://www.f-techsnowparks.com/portfolio/pfelders/
+park-italy-ratschings-jaufen,Snowpark Ratschings,Ratschings-Jaufen,Italy,South Tyrol,F-Tech Snowparks,Resort,No,46.852,11.295,https://www.f-techsnowparks.com/portfolio/ratschings/
+park-italy-rosskopf-monte-cavallo-sterzing,Snowpark Rosskopf,Rosskopf Monte Cavallo (Sterzing),Italy,South Tyrol,F-Tech Snowparks,Resort,No,46.902,11.419,https://www.f-techsnowparks.com/portfolio/rosskopf/
+park-italy-san-martino-di-castrozza,Snowpark San Martino,San Martino di Castrozza,Italy,Trentino,F-Tech Snowparks,Resort,No,46.262,11.795,https://www.f-techsnowparks.com/portfolio/san-martino/
+park-italy-sch-neben-reschenpass,Snowpark Schöneben,Schöneben - Reschenpass,Italy,South Tyrol,QParks,Resort,No,46.8042,10.5125,https://www.qparks.com/snowpark-schoeneben/
+park-italy-speikboden-sand-in-taufers,Snowpark Speikboden,Speikboden (Sand in Taufers),Italy,South Tyrol,F-Tech Snowparks,Resort,No,46.907,11.896,https://www.f-techsnowparks.com/portfolio/speikboden/
+park-italy-val-gardena-gr-den,Snowpark Piz Sella,Val Gardena (Gröden),Italy,South Tyrol,F-Tech Snowparks,Resort,No,46.535,11.758,https://www.f-techsnowparks.com/portfolio/val-gardena/
+park-japan-hakuba-47-winter-sports-park,Hakuba 47 R-4 Snow Park,Hakuba 47 Winter Sports Park,Japan,Nagano,Hakuba 47 Digger Crew,Resort,Yes,36.696,137.835,https://www.hakuba47.co.jp/winter/en/snowpark/
+park-japan-hoshino-resorts-nekoma-mountain-alts-bandai,Alts Bandai Step Up Park,Hoshino Resorts Nekoma Mountain (Alts Bandai),Japan,Fukushima,Hoshino Resorts Park Team,Resort,Yes,37.585,140.048,https://www.nekoma.co.jp/en/snowpark/
+park-japan-niseko-tokyu-grand-hirafu,Niseko Grand Hirafu Free Ride Park,Niseko Tokyu Grand Hirafu,Japan,Hokkaido,Grand Hirafu Park Crew,Resort,No,42.862,140.704,https://www.grand-hirafu.jp/winter/en/mountain/snowpark.html
+park-japan-snova-mizonokuchi-r246,Snova Mizonokuchi-R246,Snova Mizonokuchi-R246,Japan,Kanagawa,Snova Shapers,Indoor,Yes,35.589,139.605,http://www.snova246.com/
+park-japan-snova-shin-yokohama,Snova Shin-Yokohama,Snova Shin-Yokohama,Japan,Kanagawa,Snova Park Crew,Indoor,Yes,35.522,139.638,http://www.snova-shinyoko.com/
+park-japan-yuzawa-nakazato-snow-resort,Yuzawa Nakazato Snow Park,Yuzawa Nakazato Snow Resort,Japan,Niigata,Nakazato Shape Crew,Resort,No,36.92,138.835,https://www.yuzawa-nakazato.com/
+park-lithuania-snow-arena-druskininkai,Snow Arena Druskininkai Freestyle Area,Snow Arena Druskininkai,Lithuania,Alytus,Snow Arena Shapers,Indoor,No,54.032,23.968,https://www.snowarena.lt/
+park-netherlands-snowworld-amsterdam,SnowWorld Amsterdam (Spaarnwoude),SnowWorld Amsterdam,Netherlands,North Holland,SnowWorld Shape Crew,Indoor,No,52.419,4.708,https://www.snowworld.com/amsterdam/
+park-netherlands-snowworld-landgraaf,SnowWorld Landgraaf Terrain Park,SnowWorld Landgraaf,Netherlands,Limburg,SnowWorld Shape Crew,Indoor,No,50.8808,6.0175,https://www.snowworld.com/landgraaf/nl/snowpark
+park-netherlands-snowworld-rucphen,SnowWorld Rucphen (Skidôme),SnowWorld Rucphen,Netherlands,North Brabant,SnowWorld Shape Crew,Indoor,No,51.532,4.578,https://www.snowworld.com/rucphen/
+park-netherlands-snowworld-terneuzen,SnowWorld Terneuzen (Skidôme),SnowWorld Terneuzen,Netherlands,Zeeland,SnowWorld Shape Crew,Indoor,No,51.314,3.826,https://www.snowworld.com/terneuzen/
+park-netherlands-snowworld-zoetermeer,SnowWorld Zoetermeer Freestyle Area,SnowWorld Zoetermeer,Netherlands,South Holland,SnowWorld Shape Crew,Indoor,No,52.052,4.512,https://www.snowworld.com/zoetermeer/
+park-new-zealand-cardrona-alpine-resort,Cardrona Parks & Pipes,Cardrona Alpine Resort,New Zealand,Otago,Effective Edge / Cardrona Parks Crew,Resort,Yes,-44.869,169.01,https://www.cardrona.com/winter/experience/parks-pipes/
+park-new-zealand-the-remarkables-queenstown,The Remarkables Parks,The Remarkables (Queenstown),New Zealand,Otago,Effective Edge / NZSki Crew,Resort,No,-45.053,168.814,https://www.theremarkables.co.nz/terrain-parks/
+park-norway-hemsedal,Hemsedal Snow Park,Hemsedal,Norway,Viken,SkiStar Hemsedal Park Crew,Resort,No,60.862,8.514,https://www.skistar.com/hemsedal-snow-park
+park-norway-rauland-skisenter,Vierli Snowpark (Rauland),Rauland Skisenter,Norway,Telemark,Vierli Shapers,Resort,No,59.736,8.012,https://visitrauland.com/vierli-snowpark/
+park-norway-sn-oslo-l-renskog,SNØ Lørenskog Indoor Park,SNØ Oslo / Lørenskog,Norway,Viken,SNØ Freestyle Park Crew,Indoor,No,59.932,10.998,https://snooslo.no/en/activities/snowpark
+park-norway-skimore-oslo-tryvann,Skimore Oslo Winterpark,Skimore Oslo (Tryvann),Norway,Oslo,Oslo Winterpark Crew / Schneestern,Resort,Yes,59.988,10.669,https://skimore.no/oslo/snowpark/
+park-norway-trysil,Trysil Snow Park,Trysil,Norway,Innlandet,SkiStar Trysil Park Crew,Resort,No,61.312,12.245,https://www.skistar.com/trysil-snow-park
+park-oman-ski-oman-mall-of-oman,Ski Oman Terrain Park,Ski Oman (Mall of Oman),Oman,Muscat,Ski Oman Park Crew,Indoor,No,23.579,58.408,https://www.skioman.com/
+park-poland-bia-ka-tatrza-ska-kotelnica,Kotelnica Snowpark,Białka Tatrzańska (Kotelnica),Poland,Lesser Poland,Techramps / Snowparki.com,Resort,No,49.392,20.102,https://bialkatatrzanska.pl/atrakcje/snowpark
+park-poland-czarny-gro-rzyki,Tiger Snowpark Czarny Groń,Czarny Groń (Rzyki),Poland,Lesser Poland,Tiger Park Crew / Techramps,Resort,No,49.791,19.418,https://czarnygron.pl/stacja-narciarska/tiger-snowpark
+park-poland-szczyrk-mountain-resort,Szczyrk Snowpark,Szczyrk Mountain Resort,Poland,Silesian Beskids,Techramps / Szczyrk Crew,Resort,No,49.698,18.998,https://www.szczyrkowski.pl/osrodek/atrakcje/snowpark
+park-poland-s-otwiny-arena-krynica-zdr-j,M Park Słotwiny Arena,Słotwiny Arena (Krynica-Zdrój),Poland,Lesser Poland,Techramps / Snowparki.com,Resort,No,49.431,20.941,https://slotwinyarena.pl/drwitt-snowpark/
+park-slovakia-jasn-low-tatras-chopok,Snowpark Jasná (Otupné),Jasná Low Tatras (Chopok),Slovakia,Žilina,Jasná Park Crew / TMR,Resort,No,48.968,19.585,https://www.jasna.sk/de/erlebnisse/attraktionen/snowpark
+park-slovakia-park-snow-donovaly-z-hradi-te,Riders Park Donovaly,PARK SNOW Donovaly (Záhradište),Slovakia,Banská Bystrica,Riders Park Shape Crew,Resort,No,48.878,19.224,https://www.parksnow.sk/zima/riders-park
+park-slovenia-rogla-ma-in-aga,Fun Park Rogla,Rogla (Mašinžaga),Slovenia,Styria,Rogla Park Team,Resort,No,46.452,15.334,https://www.rogla.eu/de/erlebnisse/fun-park-rogla
+park-slovenia-vogel-ski-center-bohinj,Snowpark Vogel,Vogel Ski Center (Bohinj),Slovenia,Upper Carniola,Vogel Shaper Crew,Resort,No,46.258,13.842,https://www.vogel.si/winter/experiences/snow-park-vogel
+park-south-korea-phoenix-pyeongchang,Phoenix Pyeongchang Extreme Park,Phoenix Pyeongchang,South Korea,Gangwon-do,Schneestern / Phoenix Crew,Resort,Yes,37.581,128.324,https://phoenixhnr.co.kr/en/page/pyeongchang/ski
+park-spain-sierra-nevada-loma-de-d-lar,Sulayr Snowpark & Superpipe,Sierra Nevada (Loma de Dílar),Spain,Andalusia,Sulayr Park Team,Resort,Yes,37.089,-3.389,https://sierranevada.es/es/invierno/la-estacion/sulayr-snowpark/
+park-spain-snozone-madrid-intu-xanad,Snowzone Madrid Xanadú,SnoZone Madrid (Intu Xanadú),Spain,Madrid,SnoZone Madrid Shape Crew,Indoor,No,40.298,-3.925,https://www.snozonemadrid.com/
+park-sweden-kl-ppen-ski-resort,Kläppen Snowpark,Kläppen Ski Resort,Sweden,Dalarna,Kläppen Snowpark Crew,Resort,Yes,61.026,13.064,https://www.klappen.se/snowpark/
+park-sweden-re-ski-resort,Åre Snow Park (Bräcke),Åre Ski Resort,Sweden,Jämtland,SkiStar Åre Park Crew,Resort,No,63.398,13.078,https://www.skistar.com/are-snow-park
+park-switzerland-corvatsch-silvaplana,Corvatsch Park,Corvatsch Silvaplana,Switzerland,Graubünden,Schneestern / Corvatsch Shape Crew,Resort,Yes,46.425,9.818,https://www.corvatsch-diavolezza.ch/corvatsch-park
+park-switzerland-crans-montana-cry-d-er,Crans-Montana Snowpark,Crans-Montana (Cry d'Er),Switzerland,Valais,Alaïa / Crans-Montana Parks,Resort,Yes,46.321,7.482,https://www.crans-montana.ch/snowpark
+park-switzerland-davos-jakobshorn,JatzPark & Bolgen Superpipe,Davos Jakobshorn,Switzerland,Graubünden,Davos Klosters Shape Crew,Resort,Yes,46.772,9.821,https://www.davosklostersmountains.ch/
+park-switzerland-grindelwald-first-jungfrau,Snowpark Grindelwald-First,Grindelwald-First (Jungfrau),Switzerland,Bernese Oberland,Jungfrau Freestyle Crew,Resort,No,46.659,8.055,https://www.jungfrau.ch/de-ch/grindelwaldfirst/snowpark/
+park-switzerland-laax-flims-laax-falera,Snowpark Laax (NoName / Crap Sogn Gion),Laax (Flims Laax Falera),Switzerland,Graubünden,LAAX Freestyle Academy Crew,Resort,Yes,46.837,9.215,https://www.laax.com/snowpark
+park-switzerland-scuol-motta-naluns,Snowpark Scuol,Scuol Motta Naluns,Switzerland,Graubünden,QParks,Resort,No,46.805,10.279,https://www.qparks.com/snowpark-scuol/
+park-switzerland-verbier-4-vall-es-la-chaux,Snowpark Verbier,Verbier (4 Vallées / La Chaux),Switzerland,Valais,Verbier Shape Crew,Resort,No,46.089,7.288,https://verbier4vallees.ch/snowpark
+park-switzerland-zermatt-theodul-glacier,Snowpark Zermatt,Zermatt (Theodul Glacier),Switzerland,Valais,Zermatt Shape Team,Resort,Yes,45.946,7.731,https://www.matterhornparadise.ch/snowpark-zermatt
+park-united-arab-emirates-ski-dubai-mall-of-the-emirates,Ski Dubai Freestyle Park,Ski Dubai (Mall of the Emirates),United Arab Emirates,Dubai,Ski Dubai Freestyle Crew,Indoor,No,25.118,55.199,https://www.skidxb.com/
+park-united-kingdom-bearsden-ski-board-club,Bearsden Freestyle Slope,Bearsden Ski & Board Club,United Kingdom,East Dunbartonshire,Bearsden Freestyle Crew,Dryslope,No,55.918,-4.331,https://www.skibearsden.co.uk/
+park-united-kingdom-bratham-llandudno-snowsports-centre,Bratham Freestyle Dryslope,Bratham / Llandudno Snowsports Centre,United Kingdom,Wales,Llandudno Freestyle Crew,Dryslope,No,53.332,-3.831,https://www.llandudnosnowsports.co.uk/
+park-united-kingdom-cardiff-ski-centre-fairwater,Cardiff Ski and Snowboard Centre,Cardiff Ski Centre (Fairwater),United Kingdom,Wales,Cardiff Freestyle Crew,Dryslope,No,51.491,-3.245,https://www.skicardiff.co.uk/
+park-united-kingdom-chill-factore-manchester,Chill Factore Freestyle Park,Chill Factore Manchester,United Kingdom,Greater Manchester,Chill Factore Freestyle Team,Indoor,No,53.468,-2.355,https://www.chillfactore.com/
+park-united-kingdom-gloucester-ski-centre,Gloucester Ski & Snowboard Centre,Gloucester Ski Centre,United Kingdom,Gloucestershire,Gloucester Freestyle Crew,Dryslope,No,51.849,-2.208,https://www.gloucesterski.com/
+park-united-kingdom-halifax-snowsports-centre,Halifax Ski & Snowboard Centre,Halifax Snowsports Centre,United Kingdom,West Yorkshire,Halifax Freestyle Crew,Dryslope,No,53.738,-1.865,https://www.halifaxsnowsports.co.uk/
+park-united-kingdom-midlothian-snowsports-centre-hillend,Hillend Edinburgh Snowsports Centre,Midlothian Snowsports Centre (Hillend),United Kingdom,Midlothian,Hillend Freestyle Crew,Dryslope,No,55.898,-3.208,https://www.midlothian.gov.uk/snowsports
+park-united-kingdom-norfolk-snowsports-club-trowse,Norfolk Snowsports Club Freestyle Park,Norfolk Snowsports Club (Trowse),United Kingdom,Norfolk,Norfolk Freestyle Crew,Dryslope,No,52.612,1.321,https://www.norfolksnowsports.com/
+park-united-kingdom-sheffield-snowsports-park,Sheffield Ski Village Dryslope,Sheffield Snowsports Park,United Kingdom,South Yorkshire,Sheffield Freestyle Shapers,Dryslope,No,53.398,-1.492,https://sheffieldsnowsports.co.uk/
+park-united-kingdom-snow-factor-glasgow,Snow Factor Braehead (Soar),Snow Factor Glasgow,United Kingdom,Renfrewshire,Snow Factor Shapers,Indoor,No,55.877,-4.368,https://www.snowfactor.com/
+park-united-kingdom-snozone-milton-keynes-xscape,Snozone Milton Keynes,Snozone Milton Keynes (Xscape),United Kingdom,Buckinghamshire,Snozone Freestyle Crew,Indoor,No,52.039,-0.749,https://www.snozoneuk.com/milton-keynes/
+park-united-kingdom-snozone-yorkshire-xscape,Snozone Yorkshire (Castleford),Snozone Yorkshire (Xscape),United Kingdom,West Yorkshire,Snozone Freestyle Crew,Indoor,No,53.715,-1.338,https://www.snozoneuk.com/yorkshire/
+park-united-kingdom-stoke-ski-centre,Stoke Ski Centre (Freestyle Park),Stoke Ski Centre,United Kingdom,Staffordshire,Stoke Freestyle Crew,Dryslope,No,53.032,-2.185,https://www.stokeskicentre.co.uk/
+park-united-kingdom-suffolk-ski-centre-ipswich,Suffolk Ski Centre Freestyle Park,Suffolk Ski Centre (Ipswich),United Kingdom,Suffolk,Suffolk Freestyle Crew,Dryslope,No,52.022,1.145,https://www.suffolkskicentre.co.uk/
+park-united-kingdom-the-snow-centre-hemel-hempstead,The Snow Centre Hemel Hempstead,The Snow Centre Hemel Hempstead,United Kingdom,Hertfordshire,The Snow Centre Freestyle Crew,Indoor,No,51.745,-0.468,https://www.thesnowcentre.com/
+park-united-states-big-boulder-ski-area,Big Boulder Park,Big Boulder Ski Area,United States,Pennsylvania,Big Boulder Crew,Resort,No,41.052,-75.591,https://www.jfbb.com/the-mountain/terrain-parks
+park-united-states-big-snow-american-dream,Big SNOW American Dream Freestyle Park,Big SNOW American Dream,United States,New Jersey,Big SNOW Park Crew / SPT,Indoor,No,40.808,-74.068,https://www.bigsnowamericandream.com/
+park-united-states-big-sky-resort,Big Sky Resort Parks,Big Sky Resort,United States,Montana,Big Sky Terrain Park Crew,Resort,No,45.286,-111.401,https://bigskyresort.com/terrain-parks
+park-united-states-boreal-mountain,Woodward Tahoe (Boreal),Boreal Mountain,United States,California,Woodward / SPT,Resort,Yes,39.3364,-120.3508,https://www.rideboreal.com/woodward-tahoe
+park-united-states-breckenridge-ski-resort-peak-8-9,Breckenridge Freeway & Park Lane,Breckenridge Ski Resort (Peak 8/9),United States,Colorado,Breck Park Crew / SPT,Resort,Yes,39.481,-106.068,https://www.breckenridge.com/the-mountain/terrain-parks
+park-united-states-buck-hill-ski-area,Buck Hill Neveplast Summer Park,Buck Hill Ski Area,United States,Minnesota,Buck Hill Park Crew / Neveplast,Dryslope,No,44.724,-93.286,https://www.buckhill.com/
+park-united-states-buttermilk-mountain-aspen,Aspen Snowmass Buttermilk Park,Buttermilk Mountain (Aspen),United States,Colorado,Snowmass / SPT,Resort,Yes,39.205,-106.861,https://www.aspensnowmass.com/terrain-parks
+park-united-states-copper-mountain,Woodward Copper,Copper Mountain,United States,Colorado,Woodward / SPT,Resort,Yes,39.5015,-106.151,https://www.coppercolorado.com/woodward
+park-united-states-eldora-mountain-resort,Woodward Eldora,Eldora Mountain Resort,United States,Colorado,Woodward / SPT,Resort,No,39.937,-105.584,https://www.eldora.com/the-mountain/woodward-eldora
+park-united-states-keystone-resort,Keystone A51 Terrain Park,Keystone Resort,United States,Colorado,Area 51 Park Crew,Resort,No,39.605,-105.943,https://www.keystoneresort.com/a-51-terrain-park
+park-united-states-killington-resort,Woodward Killington,Killington Resort,United States,Vermont,Woodward / SPT,Resort,No,43.626,-72.796,https://www.killington.com/the-mountain/woodward-killington
+park-united-states-liberty-mountain-snowflex-centre-lynchburg,Liberty Mountain Snowflex Centre,Liberty Mountain Snowflex Centre (Lynchburg),United States,Virginia,Snowflex Freestyle Crew,Dryslope,No,37.352,-79.162,https://www.liberty.edu/campusrec/snowflex/
+park-united-states-loon-mountain-resort,Loon Mountain Parks (LMP),Loon Mountain Resort,United States,New Hampshire,Loon Mountain Park Crew / SPT,Resort,Yes,44.056,-71.631,https://www.loonmtn.com/terrain-parks
+park-united-states-mammoth-mountain,Mammoth Unbound,Mammoth Mountain,United States,California,Mammoth Unbound Park Crew / SPT,Resort,Yes,37.6308,-119.0325,https://www.mammothmountain.com/unbound-terrain-parks
+park-united-states-mount-snow-carinthia,Carinthia Parks at Mount Snow,Mount Snow (Carinthia),United States,Vermont,Carinthia Parks Crew,Resort,Yes,42.96,-72.887,https://www.mountsnow.com/the-mountain/carinthia-parks
+park-united-states-mt-bachelor,Woodward Mt. Bachelor,Mt. Bachelor,United States,Oregon,Woodward / SPT,Resort,No,43.988,-121.688,https://www.mtbachelor.com/woodward-mt-bachelor
+park-united-states-mt-hood-meadows,Mt. Hood Meadows Parks,Mt. Hood Meadows,United States,Oregon,Meadows Parks Crew,Resort,Yes,45.33,-121.664,https://www.skihood.com/the-mountain/parks
+park-united-states-park-city-mountain-resort,Park City 3 Kings & Eagle Park,Park City Mountain Resort,United States,Utah,Park City 3 Kings Crew,Resort,Yes,40.651,-111.508,https://www.parkcitymountain.com/the-mountain/terrain-parks
+park-united-states-seven-springs-mountain-resort,Seven Springs Terrain Parks,Seven Springs Mountain Resort,United States,Pennsylvania,Seven Springs Park Crew,Resort,Yes,40.022,-79.296,https://www.7springs.com/the-mountain/terrain-parks
+park-united-states-steamboat-resort-mavericks-superpipe,Steamboat Terrain Parks,Steamboat Resort (Mavericks Superpipe),United States,Colorado,Steamboat Shape Crew / SPT,Resort,Yes,40.457,-106.774,https://www.steamboat.com/the-mountain/terrain-parks
+park-united-states-sunday-river-resort,Sunday River Terrain Parks,Sunday River Resort,United States,Maine,Sunday River Park Crew,Resort,Yes,44.473,-70.857,https://www.sundayriver.com/terrain-parks
+park-united-states-timberline-lodge-mt-hood,Timberline Freestyle Park,Timberline Lodge (Mt. Hood),United States,Oregon,Timberline Freestyle Crew,Resort,Yes,45.331,-121.711,https://www.timberlinelodge.com/freestyle-parks
+park-united-states-trollhaugen-outdoor-recreation-area,Trollhaugen Valhalla & Parks,Trollhaugen Outdoor Recreation Area,United States,Wisconsin,Trollhaugen Troll Crew,Resort,No,45.378,-92.651,https://www.trollhaugen.com/terrain-parks
+park-united-states-vail-ski-resort,Vail Golden Peak Park,Vail Ski Resort,United States,Colorado,Vail Park Crew,Resort,Yes,39.638,-106.362,https://www.vail.com/the-mountain/terrain-parks
+park-united-states-woodward-park-city,Woodward Park City,Woodward Park City,United States,Utah,Woodward / SPT,Resort,Yes,40.7558,-111.5833,https://www.woodwardparkcity.com/

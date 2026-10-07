@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+Invoices_2027/
+Invoices_2027_Overview.xlsx
+Member_Database.xlsx
+Invoice Template.docx
+__pycache__/
+*.pyc

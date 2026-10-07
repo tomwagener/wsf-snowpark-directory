@@ -142,7 +142,8 @@ function wsf_render_snowpark_single_shortcode() {
 
     $rate_beg     = get_post_meta($post_id, 'rating_beginner', true);
     $rate_int     = get_post_meta($post_id, 'rating_intermediate', true);
-    $rate_pro     = get_post_meta($post_id, 'rating_advanced_pro', true);
+    $rate_adv     = get_post_meta($post_id, 'rating_advanced', true) ?: get_post_meta($post_id, 'rating_advanced_pro', true);
+    $rate_pro_xl  = get_post_meta($post_id, 'rating_pro_xl', true) ?: $rate_adv;
 
     $has_pipe     = get_post_meta($post_id, 'has_pipe', true);
     $pipe_type    = get_post_meta($post_id, 'pipe_type', true);
@@ -157,20 +158,39 @@ function wsf_render_snowpark_single_shortcode() {
     $transit      = get_post_meta($post_id, 'public_transit_score', true);
     $train        = get_post_meta($post_id, 'nearest_train_station', true);
     $airport      = get_post_meta($post_id, 'nearest_airport', true);
+    $lat          = get_post_meta($post_id, 'latitude', true);
+    $lng          = get_post_meta($post_id, 'longitude', true);
 
     $insta        = get_post_meta($post_id, 'instagram_handle', true);
     $website      = get_post_meta($post_id, 'website_url', true);
     $events       = get_post_meta($post_id, 'event_calendar_url', true);
 
+    // Height sanitization
+    $is_valid_elev = !empty($elev) && !preg_match('/mountain|resort|tbd|none/i', $elev) && preg_match('/\d/', $elev);
+
+    // Shape crew boolean
+    $has_dedicated_crew = (!empty($crew) && !preg_match('/^(no|none|false|0)$/i', trim($crew))) || !empty($daily_shape);
+
     $terms = get_the_terms($post_id, 'snowpark_location');
     $location_str = '';
+    $country_name = '';
     if ($terms && !is_wp_error($terms)) {
         $names = wp_list_pluck($terms, 'name');
         $location_str = implode(' &bull; ', array_reverse($names));
+        foreach ($terms as $t) {
+            if ($t->parent == 0) {
+                $country_name = $t->name;
+                break;
+            }
+        }
     }
 
+    // Google Maps URL (Resort Name search)
+    $maps_query = trim($resort . ($country_name ? ' ' . $country_name : ''));
+    $maps_url = 'https://www.google.com/maps/search/?api=1&query=' . urlencode($maps_query);
+
     $star_html = function($val) {
-        if (!$val) return '';
+        if (!$val) return '<span style="color:#cbd5e1;">☆☆☆☆☆</span>';
         $out = '<span style="color:#f59e0b; font-size:1.1rem;">';
         for ($i = 1; $i <= 5; $i++) {
             $out .= ($i <= $val) ? '★' : '☆';
@@ -195,21 +215,13 @@ function wsf_render_snowpark_single_shortcode() {
                 <?php if ($location_str): ?>
                     <span style="background:rgba(255,255,255,0.15); color:#fff; font-size:0.9rem; padding:5px 14px; border-radius:9999px;">📍 <?php echo esc_html($location_str); ?></span>
                 <?php endif; ?>
-                <?php if ($elev): ?>
+                <?php if ($is_valid_elev): ?>
                     <span style="background:rgba(255,255,255,0.15); color:#fff; font-size:0.9rem; padding:5px 14px; border-radius:9999px;">⛰️ <?php echo esc_html($elev); ?></span>
                 <?php endif; ?>
             </div>
             
             <h1 style="color:#fff; font-size:2.6rem; margin:0 0 10px 0; font-weight:800; line-height:1.2;"><?php echo esc_html($title); ?></h1>
-            <p style="color:#94a3b8; font-size:1.15rem; margin:0 0 15px 0;">Home Resort: <strong style="color:#e2e8f0;"><?php echo esc_html($resort); ?></strong></p>
-            
-            <?php if ($stars): ?>
-                <div style="display:flex; align-items:center; gap:8px;">
-                    <span style="font-size:1rem; color:#cbd5e1;">WSPL Rating:</span>
-                    <?php echo $star_html($stars); ?>
-                    <span style="font-weight:700; color:#fbbf24; font-size:1.1rem;"><?php echo esc_html($stars); ?> / 5</span>
-                </div>
-            <?php endif; ?>
+            <p style="color:#94a3b8; font-size:1.15rem; margin:0;">Home Resort: <strong style="color:#e2e8f0;"><?php echo esc_html($resort); ?></strong></p>
         </div>
 
         <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:18px; margin-bottom:35px;">
@@ -226,8 +238,10 @@ function wsf_render_snowpark_single_shortcode() {
                 <div style="font-size:2.2rem; font-weight:800; color:#0891b2; margin-top:5px;"><?php echo esc_html($jibs ?: '—'); ?></div>
             </div>
             <div style="background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:22px; text-align:center; box-shadow:0 2px 4px rgba(0,0,0,0.02);">
-                <div style="font-size:0.8rem; text-transform:uppercase; color:#64748b; font-weight:700; letter-spacing:0.05em;">Shaper Crew</div>
-                <div style="font-size:1.15rem; font-weight:700; color:#0f172a; margin-top:12px;"><?php echo esc_html($crew ?: 'Local Crew'); ?></div>
+                <div style="font-size:0.8rem; text-transform:uppercase; color:#64748b; font-weight:700; letter-spacing:0.05em;">Dedicated Shape Crew</div>
+                <div style="font-size:1.6rem; font-weight:800; color:<?php echo $has_dedicated_crew ? '#059669' : '#64748b'; ?>; margin-top:8px;">
+                    <?php echo $has_dedicated_crew ? '✓ Yes' : '— No'; ?>
+                </div>
             </div>
         </div>
 
@@ -241,7 +255,8 @@ function wsf_render_snowpark_single_shortcode() {
                     <div style="display:flex; flex-direction:column; gap:14px; margin-bottom:18px;">
                         <div style="display:flex; justify-content:space-between; align-items:center;"><span style="font-weight:600; font-size:1rem;">Beginner / Easy Lines:</span><div><?php echo $star_html($rate_beg); ?></div></div>
                         <div style="display:flex; justify-content:space-between; align-items:center;"><span style="font-weight:600; font-size:1rem;">Intermediate / Medium Lines:</span><div><?php echo $star_html($rate_int); ?></div></div>
-                        <div style="display:flex; justify-content:space-between; align-items:center;"><span style="font-weight:600; font-size:1rem;">Advanced / Pro / XL Lines:</span><div><?php echo $star_html($rate_pro); ?></div></div>
+                        <div style="display:flex; justify-content:space-between; align-items:center;"><span style="font-weight:600; font-size:1rem;">Advanced Lines:</span><div><?php echo $star_html($rate_adv); ?></div></div>
+                        <div style="display:flex; justify-content:space-between; align-items:center;"><span style="font-weight:600; font-size:1rem;">Pro / XL Lines:</span><div><?php echo $star_html($rate_pro_xl); ?></div></div>
                     </div>
                     <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:12px 14px; font-size:0.82rem; color:#64748b; line-height:1.5;">
                         <strong style="color:#334155;">⭐ Rating Key:</strong>
@@ -307,6 +322,9 @@ function wsf_render_snowpark_single_shortcode() {
                             <span>📸</span> @<?php echo esc_html($clean_handle); ?> ↗
                         </a>
                     <?php endif; ?>
+                    <a href="<?php echo esc_url($maps_url); ?>" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; justify-content:center; gap:6px; color:#1e40af; font-weight:700; text-decoration:none; font-size:0.95rem; background:#eff6ff; padding:10px; border-radius:8px; border:1px solid #bfdbfe;">
+                        <span>🗺️</span> View on Google Maps ↗
+                    </a>
                 </div>
             </div>
         </div>

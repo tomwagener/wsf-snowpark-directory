@@ -169,7 +169,7 @@ acf_group = {
         },
         {
             "key": "field_sp_rate_beg",
-            "label": "Rating Beginner",
+            "label": "Rating Beginner / Easy Lines",
             "name": "rating_beginner",
             "type": "number",
             "min": 1,
@@ -177,16 +177,24 @@ acf_group = {
         },
         {
             "key": "field_sp_rate_int",
-            "label": "Rating Intermediate",
+            "label": "Rating Intermediate / Medium Lines",
             "name": "rating_intermediate",
             "type": "number",
             "min": 1,
             "max": 5
         },
         {
-            "key": "field_sp_rate_pro",
-            "label": "Rating Advanced / Pro",
-            "name": "rating_advanced_pro",
+            "key": "field_sp_rate_adv",
+            "label": "Rating Advanced Lines",
+            "name": "rating_advanced",
+            "type": "number",
+            "min": 1,
+            "max": 5
+        },
+        {
+            "key": "field_sp_rate_pro_xl",
+            "label": "Rating Pro / XL Lines",
+            "name": "rating_pro_xl",
             "type": "number",
             "min": 1,
             "max": 5

@@ -12,9 +12,10 @@ function wsf_render_snowpark_directory_shortcode() {
     $countries = get_terms(['taxonomy' => 'snowpark_location', 'parent' => 0, 'hide_empty' => true]);
     $facilities = get_terms(['taxonomy' => 'facility_type', 'hide_empty' => true]);
 
+    $is_preview = is_customize_preview();
     $all_parks = get_posts([
         'post_type'      => 'snowpark',
-        'posts_per_page' => -1,
+        'posts_per_page' => $is_preview ? 12 : -1,
         'post_status'    => 'publish',
         'orderby'        => 'title',
         'order'          => 'ASC',

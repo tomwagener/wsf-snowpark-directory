@@ -10,6 +10,14 @@
 
 if (!defined('ABSPATH')) exit;
 
+// Prevent memory exhaustion in Kadence Customizer & heavy admin builders
+if (function_exists('ini_set')) {
+    @ini_set('memory_limit', '512M');
+}
+add_filter('admin_memory_limit', function($limit) {
+    return '512M';
+});
+
 /**
  * 1. Register Custom Post Type & Taxonomies
  */

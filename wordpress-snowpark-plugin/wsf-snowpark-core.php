@@ -24,6 +24,10 @@ add_filter('admin_memory_limit', function($limit) {
 add_action('init', 'wsf_register_snowpark_cpt_and_taxonomies');
 
 function wsf_register_snowpark_cpt_and_taxonomies() {
+    global $pagenow;
+    $is_customizer = ($pagenow === 'customize.php' || is_customize_preview());
+    $show_rest = !$is_customizer;
+
     $labels = [
         'name'                  => _x('Snowparks', 'Post Type General Name', 'wsf-guide'),
         'singular_name'         => _x('Snowpark', 'Post Type Singular Name', 'wsf-guide'),
@@ -59,7 +63,7 @@ function wsf_register_snowpark_cpt_and_taxonomies() {
         'exclude_from_search'   => false,
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
-        'show_in_rest'          => true,
+        'show_in_rest'          => $show_rest,
         'rewrite'               => ['slug' => 'snowparks', 'with_front' => false],
     ];
     register_post_type('snowpark', $args);
@@ -76,7 +80,7 @@ function wsf_register_snowpark_cpt_and_taxonomies() {
         'show_admin_column' => true,
         'query_var'         => true,
         'rewrite'           => ['slug' => 'snowparks/location', 'hierarchical' => true],
-        'show_in_rest'      => true,
+        'show_in_rest'      => $show_rest,
     ]);
 
     register_taxonomy('facility_type', ['snowpark'], [
@@ -91,7 +95,7 @@ function wsf_register_snowpark_cpt_and_taxonomies() {
         'show_admin_column' => true,
         'query_var'         => true,
         'rewrite'           => ['slug' => 'snowparks/type'],
-        'show_in_rest'      => true,
+        'show_in_rest'      => $show_rest,
     ]);
 }
 
@@ -99,6 +103,10 @@ function wsf_register_snowpark_cpt_and_taxonomies() {
  * 2. Load ACF JSON Local Fields from Plugin
  */
 add_filter('acf/settings/load_json', function($paths) {
+    global $pagenow;
+    if ($pagenow === 'customize.php' || is_customize_preview()) {
+        return $paths;
+    }
     $paths[] = plugin_dir_path(__FILE__) . 'acf-json';
     return $paths;
 });
@@ -214,7 +222,7 @@ function wsf_render_snowpark_single_shortcode() {
     <div class="wsf-snowpark-template" style="font-family: inherit; color:#1e293b; line-height: 1.6; margin: 20px auto 40px auto; max-width: 1200px;">
         
         <div style="margin-bottom:20px;">
-            <a href="<?php echo home_url('/snowparks-guide/'); ?>" style="color:#2563eb; font-weight:700; text-decoration:none; font-size:0.95rem;">← Back to Snowpark Directory</a>
+            <a href="<?php echo home_url('/snowparks-directory/'); ?>" style="color:#2563eb; font-weight:700; text-decoration:none; font-size:0.95rem;">← Back to Snowpark Directory</a>
         </div>
 
         <div style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); color:#fff; border-radius:14px; padding:40px 35px; margin-bottom:30px; box-shadow:0 10px 25px -5px rgba(0,0,0,0.12);">
@@ -363,7 +371,14 @@ add_filter('the_content', function($content) {
 
 add_action('template_redirect', function() {
     if (is_post_type_archive('snowpark')) {
-        wp_safe_redirect(home_url('/snowparks-guide/'), 301);
+        wp_safe_redirect(home_url('/snowparks-directory/'), 301);
+        exit;
+    }
+
+    // 301 Redirect legacy URL to new directory URL
+    $req_uri = untrailingslashit(strtok($_SERVER['REQUEST_URI'] ?? '', '?'));
+    if (strpos($req_uri, '/snowparks-guide') !== false) {
+        wp_safe_redirect(home_url('/snowparks-directory/'), 301);
         exit;
     }
 });

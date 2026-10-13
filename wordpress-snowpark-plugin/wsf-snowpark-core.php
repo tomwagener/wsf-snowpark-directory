@@ -3,7 +3,7 @@
  * Plugin Name: WSF Snowpark Guide Core & Schema Integration
  * Plugin URI: https://worldsnowboardfederation.org
  * Description: Complete engine for WSF Snowpark Directory: CPT, Taxonomies, ACF Auto-Loader, Schema.org Yoast integration, Native Importer, Single Post Template & Live Filter Directory.
- * Version: 3.5.0
+ * Version: 3.6.0
  * Author: World Snowboard Federation
  * Text Domain: wsf-guide
  */

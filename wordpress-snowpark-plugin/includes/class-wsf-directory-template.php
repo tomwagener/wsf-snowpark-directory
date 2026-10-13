@@ -242,9 +242,16 @@ function wsf_render_snowpark_directory_shortcode() {
             <?php endforeach; ?>
         </div>
 
+        <!-- LOAD MORE BUTTON -->
+        <div id="wsf-load-more-container" style="text-align:center; margin-top:40px; margin-bottom:20px;">
+            <button id="wsf-load-more-btn" type="button" style="background:#0f172a; color:#fff; font-weight:700; font-size:1rem; padding:14px 32px; border-radius:10px; border:none; cursor:pointer; box-shadow:0 4px 12px rgba(15,23,42,0.15); transition:all 0.2s ease;">
+                Load More Snowparks (+12) ↓
+            </button>
+        </div>
+
     </div>
 
-    <!-- LIVE FILTER JAVASCRIPT -->
+    <!-- LIVE FILTER & PROGRESSIVE DISCLOSURE JAVASCRIPT -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const searchInput = document.getElementById('wsf-search');
@@ -255,8 +262,13 @@ function wsf_render_snowpark_directory_shortcode() {
         const pipeFilter = document.getElementById('wsf-pipe-filter');
         const nightFilter = document.getElementById('wsf-night-filter');
         const verifiedFilter = document.getElementById('wsf-verified-filter');
-        const cards = document.querySelectorAll('.wsf-park-card');
+        const cards = Array.from(document.querySelectorAll('.wsf-park-card'));
         const countDisplay = document.getElementById('wsf-results-count');
+        const loadMoreBtn = document.getElementById('wsf-load-more-btn');
+        const loadMoreContainer = document.getElementById('wsf-load-more-container');
+
+        const BATCH_SIZE = 12;
+        let visibleLimit = BATCH_SIZE;
 
         function filterParks() {
             const query = searchInput.value.toLowerCase().trim();
@@ -268,7 +280,9 @@ function wsf_render_snowpark_directory_shortcode() {
             const requireNight = nightFilter.checked;
             const requireVerified = verifiedFilter.checked;
 
-            let visibleCount = 0;
+            const isFiltered = query !== '' || country !== '' || facility !== '' || size !== '' || level !== '' || requirePipe || requireNight || requireVerified;
+
+            let matchingCards = [];
 
             cards.forEach(card => {
                 const name = card.dataset.name || '';
@@ -315,24 +329,53 @@ function wsf_render_snowpark_directory_shortcode() {
                 }
 
                 if (matchesSearch && matchesCountry && matchesFacility && matchesPipe && matchesNight && matchesVerified && matchesSize && matchesLevel) {
-                    card.style.display = 'flex';
-                    visibleCount++;
+                    matchingCards.push(card);
                 } else {
                     card.style.display = 'none';
                 }
             });
 
-            countDisplay.innerText = `Showing ${visibleCount} Snowparks`;
+            // Display matching cards according to pagination limit
+            matchingCards.forEach((card, idx) => {
+                if (isFiltered || idx < visibleLimit) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // Manage Load More button visibility
+            if (isFiltered || visibleLimit >= matchingCards.length) {
+                if (loadMoreContainer) loadMoreContainer.style.display = 'none';
+            } else {
+                if (loadMoreContainer) loadMoreContainer.style.display = 'block';
+                const remaining = matchingCards.length - visibleLimit;
+                const nextStep = Math.min(BATCH_SIZE, remaining);
+                if (loadMoreBtn) loadMoreBtn.innerText = `Load More Snowparks (+${nextStep}) ↓`;
+            }
+
+            const shownCount = isFiltered ? matchingCards.length : Math.min(visibleLimit, matchingCards.length);
+            countDisplay.innerText = `Showing ${shownCount} of ${matchingCards.length} Snowparks`;
         }
 
-        searchInput.addEventListener('input', filterParks);
-        countryFilter.addEventListener('change', filterParks);
-        facilityFilter.addEventListener('change', filterParks);
-        sizeFilter.addEventListener('change', filterParks);
-        levelFilter.addEventListener('change', filterParks);
-        pipeFilter.addEventListener('change', filterParks);
-        nightFilter.addEventListener('change', filterParks);
-        verifiedFilter.addEventListener('change', filterParks);
+        if (loadMoreBtn) {
+            loadMoreBtn.addEventListener('click', function() {
+                visibleLimit += BATCH_SIZE;
+                filterParks();
+            });
+        }
+
+        searchInput.addEventListener('input', function() { visibleLimit = BATCH_SIZE; filterParks(); });
+        countryFilter.addEventListener('change', function() { visibleLimit = BATCH_SIZE; filterParks(); });
+        facilityFilter.addEventListener('change', function() { visibleLimit = BATCH_SIZE; filterParks(); });
+        sizeFilter.addEventListener('change', function() { visibleLimit = BATCH_SIZE; filterParks(); });
+        levelFilter.addEventListener('change', function() { visibleLimit = BATCH_SIZE; filterParks(); });
+        pipeFilter.addEventListener('change', function() { visibleLimit = BATCH_SIZE; filterParks(); });
+        nightFilter.addEventListener('change', function() { visibleLimit = BATCH_SIZE; filterParks(); });
+        verifiedFilter.addEventListener('change', function() { visibleLimit = BATCH_SIZE; filterParks(); });
+
+        // Initial run
+        filterParks();
     });
     </script>
     <?php
